@@ -25,7 +25,6 @@ Before you begin, ensure you have the following:
 - **AWS CLI** installed and configured with appropriate credentials.
 - An **existing key pair** in AWS to be used for SSH access to the EC2 instance.
 - **Public key** (`.pem`) file of your key pair.
-- An S3 bucket for storing Terraform state files (if using remote backend).
 - The **Terraform script** provided in the `main.tf` file.
 
 ## Terraform Resources

@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project leverages Terraform to provision and manage infrastructure on AWS. Specifically, it sets up an EC2 instance running an Apache web server. The web server hosts a custom HTML page with a purple background, displaying a statement about Terraform, with Terraform logos positioned in the top corners of the page.
+This project leverages Terraform to provision and manage infrastructure on AWS. Specifically, it sets up an EC2 instance running an Apache web server. The web server hosts a custom HTML page with a purple background, displaying a statement about Terraform.
 
 ## Key Features
 

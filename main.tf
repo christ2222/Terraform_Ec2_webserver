@@ -12,7 +12,7 @@ data "aws_key_pair" "existing_key" {
 resource "aws_instance" "Terraform_Ec2_Webserver" {
     ami           = "ami-07ad29071ea49df02"
     instance_type = "t2.micro"
-    subnet_id     = "subnet-01d63b02aaee40c22"  # Replace with your subnet ID
+    subnet_id     = "subnet-01d63b02aaee40c22"  
     key_name      = data.aws_key_pair.existing_key.key_name
     
     user_data = <<-EOF
